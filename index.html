@@ -63,8 +63,8 @@ body {
     left: -95px;
     top: 160px;
 
-    width: 230px;
-    height: 420px;
+    width: 130px;
+    height: 340px;
 
     background: linear-gradient(
         135deg,
@@ -90,8 +90,8 @@ body {
     right: -90px;
     top: 245px;
 
-    width: 310px;
-    height: 185px;
+    width: 175px;
+    height: 150px;
 
     background: linear-gradient(
         135deg,
@@ -111,7 +111,7 @@ body {
 /* NAV */
 
 .navbar {
-    height: 72px;
+    height: 54px;
 
     padding: 0 5%;
 
@@ -132,13 +132,13 @@ body {
     align-items: center;
     gap: 12px;
 
-    font-size: 18px;
+    font-size: 11px;
     font-weight: 700;
 }
 
 .logo-mark {
     color: #b43dff;
-    font-size: 27px;
+    font-size: 18px;
 
     transform: rotate(45deg);
 
@@ -162,7 +162,7 @@ body {
 .nav-title span {
     color: #b43dff;
 
-    font-size: 17px;
+    font-size: 12px;
 }
 
 /* HERO */
@@ -171,9 +171,9 @@ body {
     position: relative;
     z-index: 1;
 
-    min-height: 535px;
+    min-height: 340px;
 
-    padding: 48px 20px 10px;
+    padding: 28px 20px 0;
 
     display: flex;
     justify-content: center;
@@ -188,8 +188,8 @@ body {
 /* GEKKO */
 
 .avatar-wrapper {
-    width: 270px;
-    height: 165px;
+    width: 205px;
+    height: 112px;
 
     margin: 0 auto 2px;
 
@@ -200,75 +200,10 @@ body {
     justify-content: center;
 }
 
-.gekko-emoji {
-    font-size: 125px;
-
-    line-height: 1;
-
-    transform: translateY(8px);
-
-    filter:
-        drop-shadow(0 0 8px rgba(190, 70, 255, 0.9))
-        drop-shadow(0 0 28px rgba(145, 42, 255, 0.65));
-
-    animation: gekkoGlow 2.5s ease-in-out infinite;
-}
-
-@keyframes gekkoGlow {
-    0%,
-    100% {
-        filter:
-            drop-shadow(0 0 8px rgba(190, 70, 255, 0.9))
-            drop-shadow(0 0 25px rgba(145, 42, 255, 0.55));
-    }
-
-    50% {
-        filter:
-            drop-shadow(0 0 13px rgba(210, 110, 255, 1))
-            drop-shadow(0 0 40px rgba(145, 42, 255, 0.8));
-    }
-}
-
-/* ENFEITES */
-
-.avatar-wrapper::before {
-    content: "♕";
-
-    position: absolute;
-
-    left: 28px;
-    top: 20px;
-
-    color: #ead4ff;
-
-    font-size: 43px;
-
-    transform: rotate(-15deg);
-
-    text-shadow: 0 0 12px #a83cff;
-}
-
-.avatar-wrapper::after {
-    content: "♡";
-
-    position: absolute;
-
-    right: 20px;
-    top: 62px;
-
-    color: #d05dff;
-
-    font-size: 38px;
-
-    transform: rotate(10deg);
-
-    text-shadow: 0 0 12px #a83cff;
-}
-
 /* TÍTULO */
 
 .hero h1 {
-    font-size: clamp(60px, 8vw, 94px);
+    font-size: clamp(52px, 6vw, 72px);
 
     line-height: 0.92;
 
@@ -293,11 +228,11 @@ body {
 }
 
 .subtitle {
-    margin: 24px auto 0;
+    margin: 13px auto 0;
 
     color: #aaa1b7;
 
-    font-size: 17px;
+    font-size: 12px;
 
     line-height: 1.6;
 }
@@ -309,12 +244,12 @@ body {
 /* DIVISÓRIA */
 
 .divider {
-    width: 350px;
+    width: 280px;
     max-width: 80%;
 
-    height: 42px;
+    height: 30px;
 
-    margin: 20px auto 0;
+    margin: 15px auto 0;
 
     position: relative;
 }
@@ -327,7 +262,7 @@ body {
 
     top: 20px;
 
-    width: 115px;
+    width: 92px;
     height: 2px;
 
     background: #a52fff;
@@ -346,7 +281,7 @@ body {
 .divider span {
     color: #b23aff;
 
-    font-size: 30px;
+    font-size: 18px;
 
     text-shadow: 0 0 18px #a52fff;
 }
@@ -357,11 +292,11 @@ body {
     position: relative;
     z-index: 1;
 
-    width: min(1060px, 100%);
+    width: min(820px, 100%);
 
     margin: 0 auto;
 
-    padding: 0 24px 70px;
+    padding: 0 24px 55px;
 }
 
 .section-header {
@@ -372,7 +307,7 @@ body {
 
     gap: 16px;
 
-    margin-bottom: 30px;
+    margin-bottom: 14px;
 }
 
 .section-header::before,
@@ -404,25 +339,25 @@ body {
 
     grid-template-columns: repeat(2, 1fr);
 
-    gap: 30px;
+    gap: 18px;
 }
 
 .card {
-    min-height: 180px;
+    min-height: 145px;
 
     position: relative;
 
     display: block;
 
-    padding: 40px 70px 30px 145px;
+    padding: 28px 58px 22px 105px;
 
     color: white;
 
     text-decoration: none;
 
-    border: 2px solid rgba(139, 42, 255, 0.58);
+    border: 1px solid rgba(139, 42, 255, 0.58);
 
-    border-radius: 18px;
+    border-radius: 11px;
 
     background:
         linear-gradient(
@@ -449,19 +384,19 @@ body {
 .card-icon {
     position: absolute;
 
-    left: 38px;
-    top: 48px;
+    left: 28px;
+    top: 35px;
 
     color: #bb43ff;
 
-    font-size: 45px;
+    font-size: 29px;
 
     text-shadow:
         0 0 15px rgba(187, 67, 255, 0.5);
 }
 
 .card h3 {
-    font-size: 21px;
+    font-size: 16px;
 
     margin-bottom: 10px;
 }
@@ -477,11 +412,11 @@ body {
 .arrow {
     position: absolute;
 
-    right: 22px;
-    bottom: 20px;
+    right: 14px;
+    bottom: 14px;
 
-    width: 50px;
-    height: 50px;
+    width: 38px;
+    height: 38px;
 
     display: grid;
     place-items: center;
@@ -536,6 +471,22 @@ footer strong {
     letter-spacing: 5px;
 }
 
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-valorant-icon {
+    width: 39px;
+    height: 35px;
+    object-fit: contain;
+    display: block;
+    filter: none;
+}
+
 /* CELULAR */
 
 @media (max-width: 700px) {
@@ -557,10 +508,6 @@ footer strong {
     .avatar-wrapper {
         width: 205px;
         height: 135px;
-    }
-
-    .gekko-emoji {
-        font-size: 95px;
     }
 
     .avatar-wrapper::before {
@@ -612,6 +559,67 @@ footer strong {
     }
 }
 </style>
+
+<style>
+
+/* IMAGENS REAIS */
+
+.logo-image {
+    width: 43px;
+    height: 45px;    
+    object-fit: contain;
+    display: block;
+     transform: scale(1);
+    
+    /* mantém a cor original da imagem */
+    filter: none;
+}
+
+.avatar-image {
+    width: 205px;
+    height: 112px;
+    margin: 0 auto 2px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+}
+
+.avatar-image img {
+    width: 205px;
+    height: 112px;
+    max-height: 112px;
+    object-fit: contain;
+    display: block;
+
+    filter: none;
+    animation: none;
+}
+/* remove o antigo emoji */
+.avatar-wrapper{
+    width:190px;
+    height:105px;
+}
+
+@media(max-width:700px){
+    .logo-image{
+        width:24px;
+        height:24px;
+    }
+
+    .avatar-wrapper,
+    .avatar-image{
+        width:205px;
+        height:125px;
+    }
+
+    .avatar-image img{
+        width:205px;
+        max-height:125px;
+    }
+}
+</style>
+
 </head>
 
 <body>
@@ -626,7 +634,7 @@ footer strong {
 
     <div class="logo">
 
-        <div class="logo-mark">◆</div>
+        <img class="logo-image" src="valorant icon do gekko.png" alt="Logo">
 
         <span>
             [BOT] <b>Gekko</b>
@@ -651,8 +659,8 @@ footer strong {
 
         <div class="avatar-wrapper">
 
-            <div class="gekko-emoji">
-                🦎
+            <div class="avatar-image">
+                <img src="gekko.png" alt="Gekko">
             </div>
 
         </div>
@@ -679,7 +687,8 @@ footer strong {
 
         <div class="divider">
 
-            <span>◆</span>
+            <div class="footer-brand">
+        <img src="valorant icon do gekko.png" alt="VALORANT" class="footer-valorant-icon">
 
         </div>
 
@@ -786,12 +795,24 @@ footer strong {
 
 
     <div class="footer-brand">
-
-        ◆ &nbsp; VALORANT &nbsp; ◆
-
+        <img src="valorant icon do gekko.png" alt="VALORANT" class="footer-valorant-icon">
+        <span>VALORANT</span>
     </div>
 
 </footer>
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".card").forEach((card, i) => {
+    card.style.opacity = "0";
+    card.style.transform = "translateY(10px)";
+    setTimeout(() => {
+      card.style.transition = "opacity .45s ease, transform .45s ease";
+      card.style.opacity = "1";
+      card.style.transform = "";
+    }, 180 + i * 120);
+  });
+});
+</script>
 </body>
 </html>
